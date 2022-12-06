@@ -94,9 +94,9 @@
                             <input
                                 type="range"
                                 class="form-range"
-                                min="0"
-                                max="100"
-                                step="5"
+                                min="100"
+                                max="10000"
+                                step="100"
                                 id="customRange3"
                                 v-model="testCount"
                             />
