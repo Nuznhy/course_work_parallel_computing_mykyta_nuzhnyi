@@ -1,29 +1,19 @@
-# index_front
+# Inverted Index App
 
 ## Project setup
 ```
 yarn install
+cd inverted_index
+poetry install
 ```
 
-### Compiles and hot-reloads for development
+## Run app
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn run run-app
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## Usage
+If you want to use index manually, firstly fill document id and document itself, then click "Add", only then you can use search. Be aware of that fact, that every time you reopen application, all data will be lost
 
-### Lints and fixes files
-```
-yarn lint
-```
+If you want to run tests, firstly choose test amount, then click "RunTest"
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

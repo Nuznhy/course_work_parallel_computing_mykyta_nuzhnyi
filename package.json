@@ -5,14 +5,26 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "run-app": "./start.sh",
+    "run-back": "cd inverted_index && poetry run python3 main.py",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ianwalter/vuex-reset": "^4.3.4",
+    "@popperjs/core": "^2.11.6",
+    "@vue/compat": "^3.2.45",
+    "@vueform/toggle": "^2.1.2",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue-3": "^0.4.10",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13",
+    "randexp": "^0.5.3",
+    "vue": "^3.2.45",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vue3-charts": "^1.1.32",
+    "vuex": "4.0.0",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
@@ -26,6 +38,7 @@
     "@vue/cli-plugin-unit-mocha": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.1.0",
     "@vue/eslint-config-typescript": "^9.1.0",
     "@vue/test-utils": "^2.0.0-0",
     "chai": "^4.2.0",
